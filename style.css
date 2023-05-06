@@ -1,0 +1,121 @@
+.contenedor {
+    width: 70vw;
+    height: 100vh;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    overflow: hidden;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1.titulo {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  color: #cc8952;
+  font-size: 30px;
+  margin: 50px auto 80px auto;
+  
+}
+
+h1#mensaje {
+  top: 60%;
+  left: -150px;
+  font-size: 20px;
+  color: rgb(99, 175, 76);
+  transition: all .5s ease;
+  transform: scale(0);
+  min-height: 30px;
+  margin-bottom: 0;
+}
+.zoom-in {
+  transform: scale(1) !important;
+}
+#acierto {
+  text-align: center;
+  min-height: 24px;
+  transform: scale(0);
+  margin: 00px 80px
+}
+
+h2.palabra {
+  padding: 0px 0px 0px 250px;
+  margin: 0 auto 25px auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.contenido {
+  flex-wrap: nowrap !important;
+}
+
+.col {
+  width: 50%;
+  text-align: center;
+}
+
+#turnos h3 {
+  margin: auto;
+  padding-top: 10%;
+}
+
+.letra:disabled {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+picture {
+  position: relative;
+}
+
+picture img {
+  position: absolute;
+  top: -130px;
+  left: -700px;
+  height: 225px;
+}
+
+#image5, #image4, #image3,
+#image2, #image1, #image0 {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}
+
+button {
+  background-color: #cea354;
+  padding: 8px 15px;
+  border: 1px solid #cea354;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+button:active {
+  transform: scale(0.85);
+}
+#abcdario{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
